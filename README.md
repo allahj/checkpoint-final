@@ -10,27 +10,36 @@
 
 4. Run the test specs to test your code. Prior to starting the checkpoint, it was instructed that you are are responsible for your development environment. Follow the instructions below to run the test specs:
 
-#### NPX testem
+### Setup Test First
 
-1. Run the command below to run your test specs:
+- **Fork the repository to your personal GitHub Account**
+- **Clone** the repository to your local machine
+- **OPTIONAL** - Install the VSCode [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) Extensions (if they aren't already installed)
+- Run the command `npm install` inside of the TestFirst directory (this will install packages to this project such as `ESLint`, `Pettier`, `testem`)
+- Run `testem` with the `npm run test` command or `npx testem` command
+
+### Run Testem with npx testem
+
+In your TestFirst directory run the command:
 
 ```sh
-$ npx testem
+$ npm run test
 ```
 
-Note: the command **needs to be executed inside of the foundations-checkpoint-pt-2 directory**.
-
-2. Here are all of the steps:
+OR
 
 ```sh
-$ cd ${name-of-the-checkpoint-repository}
+
 $ npx testem
-TEST'EM 'SCRIPTS!
-Open the URL below in a browser to connect.
-http://localhost:7357/
+
 ```
+
+After `testem` initiates, connect to `http//localhost:7357` in your web browser and your test specs will load.
+
+Note: the command **needs to be executed inside of the foundations-final-checkpoint directory**.
 
 <hr>
+<br>
 
 
 

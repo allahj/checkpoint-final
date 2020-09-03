@@ -1,6 +1,5 @@
 /* eslint-env jasmine */
-/* eslint-disable no-undef */
-
+/* eslint-disable no-unused-vars, no-prototype-builtins, no-undef */
 // Note: The ES2015 Class Keyword should be used.
 
 describe('Character Class', () => {
@@ -126,7 +125,7 @@ describe('Digit Class', () => {
     const two = new Digit('2', 'Arial', 10);
     const beforeIntegerValueInvocation = two.drawCharacter();
     const isDigitBeforeIntegerValueInvocation = two.isDigit;
-    
+
     expect(isDigitBeforeIntegerValueInvocation).toBe(false);
     expect(beforeIntegerValueInvocation).toBe('2');
     expect(typeof beforeIntegerValueInvocation).toBe('string');

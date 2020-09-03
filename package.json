@@ -1,5 +1,5 @@
 {
-  "name": "foundations-final-checkpoint-V2",
+  "name": "foundations-final-checkpoint",
   "version": "1.0.0",
   "description": "testing functional and object-oriented javascript",
   "scripts": {
@@ -16,6 +16,10 @@
   "homepage": "https://github.com/FullstackAcademy/foundations-final-checkpoint-V2#readme",
   "dependencies": {},
   "devDependencies": {
-    "testem": "^2.14.0"
+    "testem": "^2.14.0",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
   }
 }

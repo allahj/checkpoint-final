@@ -1,5 +1,5 @@
 /* eslint-env jasmine */
-/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars, no-prototype-builtins, no-undef */
 
 describe('aQuarter function', () => {
   const plus = (x, y) => {
@@ -59,40 +59,68 @@ describe('aQuarter function', () => {
       functionReturned('I', 'am', 'running', 'very', 'late', 'tonight')
     ).toBe('I am running very late tonight');
 
-    const multiply = (a,b,c,d,e,f,g,h,i,j,k) => {
-      return a*b*c*d*e*f*g*h*i*j*k
-    }
+    const multiply = (a, b, c, d, e, f, g, h, i, j, k) => {
+      return a * b * c * d * e * f * g * h * i * j * k;
+    };
 
     const multiplier = aQuarter(multiply);
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe('something went wrong :/');
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe('something went wrong :/');
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe('something went wrong :/');
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe(39916800);
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(
+      'something went wrong :/'
+    );
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(
+      'something went wrong :/'
+    );
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(
+      'something went wrong :/'
+    );
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(39916800);
 
     // testing if the pattern is repeatable
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe('something went wrong :/');
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe('something went wrong :/');
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe('something went wrong :/');
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe(39916800);
-    
-    // testing if the pattern is repeatable
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe('something went wrong :/');
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe('something went wrong :/');
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe('something went wrong :/');
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe(39916800);
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(
+      'something went wrong :/'
+    );
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(
+      'something went wrong :/'
+    );
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(
+      'something went wrong :/'
+    );
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(39916800);
 
     // testing if the pattern is repeatable
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe('something went wrong :/');
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe('something went wrong :/');
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe('something went wrong :/');
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe(39916800);
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(
+      'something went wrong :/'
+    );
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(
+      'something went wrong :/'
+    );
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(
+      'something went wrong :/'
+    );
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(39916800);
 
     // testing if the pattern is repeatable
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe('something went wrong :/');
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe('something went wrong :/');
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe('something went wrong :/');
-    expect(multiplier(1,2,3,4,5,6,7,8,9,10,11)).toBe(39916800);
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(
+      'something went wrong :/'
+    );
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(
+      'something went wrong :/'
+    );
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(
+      'something went wrong :/'
+    );
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(39916800);
+
+    // testing if the pattern is repeatable
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(
+      'something went wrong :/'
+    );
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(
+      'something went wrong :/'
+    );
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(
+      'something went wrong :/'
+    );
+    expect(multiplier(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)).toBe(39916800);
   });
-
-  
 });

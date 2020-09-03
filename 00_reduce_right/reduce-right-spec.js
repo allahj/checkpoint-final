@@ -1,5 +1,5 @@
 /* eslint-env jasmine */
-/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars, no-prototype-builtins, no-undef */
 
 describe('reduceRight takes an array, starting point, and combining function and applies the values in the array starting from the end', () => {
   it('works with string concatenation', () => {

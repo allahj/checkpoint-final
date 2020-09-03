@@ -1,5 +1,5 @@
 /* eslint-env jasmine */
-/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars, no-prototype-builtins, no-undef */
 
 describe('alternate', () => {
   let message;

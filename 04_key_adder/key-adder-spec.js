@@ -1,5 +1,5 @@
 /* eslint-env jasmine */
-/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars, no-prototype-builtins, no-undef */
 
 describe('keyAdder', () => {
   it('keyAdder is a function', () => {
@@ -31,7 +31,7 @@ describe('keyAdder', () => {
   });
 
   it("skips properties of the object's prototype", () => {
-    const NumberObj = function() {
+    const NumberObj = function () {
       this.a0 = 0;
       this.a5 = 5;
       this.a10 = 10;
